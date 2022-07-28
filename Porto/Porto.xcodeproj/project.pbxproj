@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A757C607288ECA0C00FF6FC7 /* Project Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A757C606288ECA0C00FF6FC7 /* Project Category.swift */; };
+		A77557D0288E2E9000FF75ED /* PortoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77557CF288E2E9000FF75ED /* PortoApp.swift */; };
+		A77557D2288E2E9000FF75ED /* MyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77557D1288E2E9000FF75ED /* MyProject.swift */; };
+		A77557D4288E2E9200FF75ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77557D3288E2E9200FF75ED /* Assets.xcassets */; };
+		A77557D7288E2E9200FF75ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77557D6288E2E9200FF75ED /* Preview Assets.xcassets */; };
+		A77557DE288E317900FF75ED /* Project Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77557DD288E317900FF75ED /* Project Card.swift */; };
+		A77BDDFC288FA87700D182FF /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BDDFB288FA87700D182FF /* CategoryList.swift */; };
+		A77BDDFE288FB6DE00D182FF /* ProjectSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BDDFD288FB6DE00D182FF /* ProjectSummary.swift */; };
+		A77BDE00288FCA0E00D182FF /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BDDFF288FCA0E00D182FF /* CardList.swift */; };
+		A77BDE02288FEF2900D182FF /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BDE01288FEF2900D182FF /* ProjectDetail.swift */; };
+		A7EBA7E2288E897100885830 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EBA7E1288E897100885830 /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A757C606288ECA0C00FF6FC7 /* Project Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project Category.swift"; sourceTree = "<group>"; };
+		A77557CC288E2E9000FF75ED /* Porto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77557CF288E2E9000FF75ED /* PortoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortoApp.swift; sourceTree = "<group>"; };
+		A77557D1288E2E9000FF75ED /* MyProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProject.swift; sourceTree = "<group>"; };
+		A77557D3288E2E9200FF75ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A77557D6288E2E9200FF75ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A77557DD288E317900FF75ED /* Project Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project Card.swift"; sourceTree = "<group>"; };
+		A77BDDFB288FA87700D182FF /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		A77BDDFD288FB6DE00D182FF /* ProjectSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummary.swift; sourceTree = "<group>"; };
+		A77BDDFF288FCA0E00D182FF /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		A77BDE01288FEF2900D182FF /* ProjectDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
+		A7EBA7E1288E897100885830 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77557C9288E2E9000FF75ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77557C3288E2E9000FF75ED = {
+			isa = PBXGroup;
+			children = (
+				A77557CE288E2E9000FF75ED /* Porto */,
+				A77557CD288E2E9000FF75ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77557CD288E2E9000FF75ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77557CC288E2E9000FF75ED /* Porto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77557CE288E2E9000FF75ED /* Porto */ = {
+			isa = PBXGroup;
+			children = (
+				A77557CF288E2E9000FF75ED /* PortoApp.swift */,
+				A77557D1288E2E9000FF75ED /* MyProject.swift */,
+				A757C606288ECA0C00FF6FC7 /* Project Category.swift */,
+				A77BDDFD288FB6DE00D182FF /* ProjectSummary.swift */,
+				A77BDE01288FEF2900D182FF /* ProjectDetail.swift */,
+				A7AAEA182890E3940095A208 /* Model */,
+				A77557D3288E2E9200FF75ED /* Assets.xcassets */,
+				A77557D5288E2E9200FF75ED /* Preview Content */,
+			);
+			path = Porto;
+			sourceTree = "<group>";
+		};
+		A77557D5288E2E9200FF75ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A77557D6288E2E9200FF75ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7AAEA182890E3940095A208 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A77557DD288E317900FF75ED /* Project Card.swift */,
+				A77BDDFB288FA87700D182FF /* CategoryList.swift */,
+				A77BDDFF288FCA0E00D182FF /* CardList.swift */,
+				A7EBA7E1288E897100885830 /* Color.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77557CB288E2E9000FF75ED /* Porto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77557DA288E2E9200FF75ED /* Build configuration list for PBXNativeTarget "Porto" */;
+			buildPhases = (
+				A77557C8288E2E9000FF75ED /* Sources */,
+				A77557C9288E2E9000FF75ED /* Frameworks */,
+				A77557CA288E2E9000FF75ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porto;
+			productName = Porto;
+			productReference = A77557CC288E2E9000FF75ED /* Porto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77557C4288E2E9000FF75ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A77557CB288E2E9000FF75ED = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A77557C7288E2E9000FF75ED /* Build configuration list for PBXProject "Porto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77557C3288E2E9000FF75ED;
+			productRefGroup = A77557CD288E2E9000FF75ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77557CB288E2E9000FF75ED /* Porto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77557CA288E2E9000FF75ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77557D7288E2E9200FF75ED /* Preview Assets.xcassets in Resources */,
+				A77557D4288E2E9200FF75ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77557C8288E2E9000FF75ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77557D2288E2E9000FF75ED /* MyProject.swift in Sources */,
+				A757C607288ECA0C00FF6FC7 /* Project Category.swift in Sources */,
+				A77BDE02288FEF2900D182FF /* ProjectDetail.swift in Sources */,
+				A7EBA7E2288E897100885830 /* Color.swift in Sources */,
+				A77557D0288E2E9000FF75ED /* PortoApp.swift in Sources */,
+				A77BDDFE288FB6DE00D182FF /* ProjectSummary.swift in Sources */,
+				A77557DE288E317900FF75ED /* Project Card.swift in Sources */,
+				A77BDDFC288FA87700D182FF /* CategoryList.swift in Sources */,
+				A77BDE00288FCA0E00D182FF /* CardList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A77557D8288E2E9200FF75ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A77557D9288E2E9200FF75ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77557DB288E2E9200FF75ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto/Preview Content\"";
+				DEVELOPMENT_TEAM = 76N3S6TDLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefcent.Porto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A77557DC288E2E9200FF75ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto/Preview Content\"";
+				DEVELOPMENT_TEAM = 76N3S6TDLG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jefcent.Porto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77557C7288E2E9000FF75ED /* Build configuration list for PBXProject "Porto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77557D8288E2E9200FF75ED /* Debug */,
+				A77557D9288E2E9200FF75ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77557DA288E2E9200FF75ED /* Build configuration list for PBXNativeTarget "Porto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77557DB288E2E9200FF75ED /* Debug */,
+				A77557DC288E2E9200FF75ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77557C4288E2E9000FF75ED /* Project object */;
+}
